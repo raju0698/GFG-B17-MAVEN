@@ -28,6 +28,6 @@ jobs:
       with:
         image: raju0698/gfgb17ga
         registry: docker.io
-        username: raju0698
-        password: raju0698
+        username: ${{secrets.DOCKER_USERNAME}}
+        password: ${{secrets.DOCKER_PASSWORD}}
    
